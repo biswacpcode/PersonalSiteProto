@@ -61,7 +61,7 @@ body{
 }
 .header{
     background-color: #D7FBE8;
-    height: 91.5vh;
+    height: 82.4vh;
     width: 100%;
     padding-top: 70px;
     position: relative;
@@ -108,6 +108,9 @@ body{
     img{
         height: 4%;
     }
+    .nav-links ul li{
+        padding: 8px 12px;
+    }
      
 }
 @media (min-height: 840px) and (max-height:1000px)
@@ -115,4 +118,10 @@ body{
     .header{
         height: 70vh;
     }
+ }
+ @media (min-height: 1000px){
+    .nav-links ul li a{
+        font-size:30px;
+    }
 }
+
