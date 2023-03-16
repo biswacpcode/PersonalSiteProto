@@ -5,6 +5,14 @@ h1{
 body{
     margin: 0;
 }
-div{
+section{
     background-color: #D7FBE8;
+    height: 100vh;
+    width: 100%;
+}
+.mountain{
+    height: 45vh;
+    position: relative;
+    top: 30vh;
+    align-items: center;
 }
