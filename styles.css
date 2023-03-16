@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-h1{
+.navbar{
+    background-color: #D7FBE8;
+}
+nav{
+    display: flex;
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Tw Cen MT', sans-serif;
+}
+nav img{
+    width: 50px;
+}
+.nav-links{
+    flex:1;
+    text-align: center;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 20px;
+    position: relative;
+    transition: 0.5s
+}
+.nav-links ul li a{
+    color: #1FAB89;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-links ul li:hover{
+    letter-spacing: 3px;
+    border: #c1f3d8b4 solid 0px;
+    background-color: #c1f3d8b4;
+    border-radius: 50px;
+}
+  h1{
     margin: 0;
     font-family: 'Caveat', sans-serif;
     font-weight: 400;
