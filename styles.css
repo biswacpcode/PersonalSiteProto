@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-.navbar{
+p{
+    font-family: 'Tw Cen MT', sans-serif;
+}
+  .navbar{
     background-color: #D7FBE8;
 }
 nav{
@@ -22,7 +25,8 @@ nav img{
     display: inline-block;
     padding: 8px 20px;
     position: relative;
-    transition: 0.5s
+    transition: 0.5s;
+    cursor: pointer;
 }
 .nav-links ul li a{
     color: #1FAB89;
@@ -35,7 +39,7 @@ nav img{
     background-color: #c1f3d8b4;
     border-radius: 50px;
 }
-  h1{
+h1{
     margin: 0;
     font-family: 'Caveat', sans-serif;
     font-weight: 400;
@@ -50,7 +54,7 @@ nav img{
     font-size: 90px;
     font-weight: 700;
 }
-p{
+.header p{
     font-family: 'Tw Cen MT', sans-serif;
     font-size: 25px;
     color: #1FAB89;
@@ -92,6 +96,17 @@ body{
     right: 25%;
     align-items: center;
 }
+.dp{
+    height: 200px;
+    margin-top: 30px;
+}
+.bioo h2{
+  font-family: 'Tw Cen MT', sans-serif;
+  font-size: 30px;
+}
+.bioo p{
+    font-size: 18px;
+}
 @media (max-width: 700px) {
     h1{
         font-size: 35px;
@@ -110,6 +125,9 @@ body{
     }
     .nav-links ul li{
         padding: 8px 12px;
+    }
+    .dp{
+        height: 130px;
     }
      
 }
