@@ -126,11 +126,16 @@ body{
 .webnd img{
     height: 150px;
 }
+.webnd p{
+    margin: 5%;
+    margin-top: 0;
+    font-size: 20px;
+}
 @media (max-width: 700px) {
-    h1{
+    .header h1{
         font-size: 35px;
     }
-    p{
+    .header p{
         font-size: 20px;
     }
     .I{
@@ -151,7 +156,7 @@ body{
     .alma img{
         height: 70px;
     }
-    .alma p{
+    .alma p, .webnd p{
         font-size: 16px;
     }
      
