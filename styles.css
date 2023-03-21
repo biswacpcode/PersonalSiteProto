@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-p{
+h2, h3, p{
     font-family: 'Tw Cen MT', sans-serif;
 }
   .navbar{
@@ -39,7 +39,7 @@ nav img{
     background-color: #c1f3d8b4;
     border-radius: 50px;
 }
-h1{
+.header h1{
     margin: 0;
     font-family: 'Caveat', sans-serif;
     font-weight: 400;
@@ -105,7 +105,26 @@ body{
   font-size: 30px;
 }
 .bioo p{
-    font-size: 18px;
+    font-size: 20px;
+    margin: 5%;
+    margin-top: 0;
+}
+.alma img{
+    height: 90px;
+    margin-top: 30px;
+}
+.alma p{
+    text-align: justify;
+    margin: 5%;
+    margin-top: 0;
+    font-size: 20px;
+}
+.positions h1{
+    font-family: 'Tw Cen MT', sans-serif;
+    margin: 0;
+}
+.webnd img{
+    height: 150px;
 }
 @media (max-width: 700px) {
     h1{
@@ -128,6 +147,12 @@ body{
     }
     .dp{
         height: 130px;
+    }
+    .alma img{
+        height: 70px;
+    }
+    .alma p{
+        font-size: 16px;
     }
      
 }
