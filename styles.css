@@ -131,6 +131,84 @@ body{
     margin-top: 0;
     font-size: 20px;
 }
+.contact{
+    background-color: white;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    border-radius: 80px;
+}
+.contact a{
+    color: #1FAB89;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    background-color: #1FAB89;
+    color: #ffffff;
+    overflow: hidden;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    margin: 0 -20px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.contact span{
+    width: 200px;
+  line-height: 50px;
+  display: inline-block;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  pointer-events: none;
+}
+.contact nav{
+    font-size: 0;
+}
+
+.contact a:nth-child(1) {
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 0;
+  }
+  .contact a:nth-child(1):hover {
+    background-color: #61c5ec;
+  }
+  .contact a:nth-child(2):hover {
+    background-color: #3B5998;
+  }
+  .contact a:nth-child(3):hover {
+    background-color: #ea4335;
+  }
+  .contact a:nth-child(4) {
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-right: 0;
+  }
+  .contact a:nth-child(4):hover {
+    background-color: #000000;
+  }
+  .contact:hover span, .share.hover span {
+    opacity: 0;
+  }
+  .contact:hover a, .share.hover a {
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #f1ce64;
+    font-size: 28px;
+  }
+  .contact:hover a:hover, .share.hover a:hover {
+    color: #fff;
+  }
+  
+
 @media (max-width: 700px) {
     .header h1{
         font-size: 35px;
