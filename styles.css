@@ -184,10 +184,10 @@ body{
     background-color: #61c5ec;
   }
   .contact a:nth-child(2):hover {
-    background-color: #3B5998;
+    background-color: #962fbf
   }
   .contact a:nth-child(3):hover {
-    background-color: #ea4335;
+    background-color:  #0e76a8;
   }
   .contact a:nth-child(4) {
     border-top-right-radius: 40px;
@@ -203,7 +203,7 @@ body{
   .contact:hover a, .share.hover a {
     border-radius: 50%;
     margin: 0 10px;
-    color: #f1ce64;
+    color: white;
     font-size: 28px;
   }
   .contact:hover a:hover, .share.hover a:hover {
