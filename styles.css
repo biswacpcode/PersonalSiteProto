@@ -189,7 +189,7 @@ body{
   .contact a:nth-child(3):hover {
     background-color:  #0e76a8;
   }
-  .contact a:nth-child(4) {
+  .contact a:nth-child(3) {
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     margin-right: 0;
@@ -197,16 +197,16 @@ body{
   .contact a:nth-child(4):hover {
     background-color: #000000;
   }
-  .contact:hover span, .share.hover span {
+  .contact:hover span, .contcat.hover span {
     opacity: 0;
   }
-  .contact:hover a, .share.hover a {
+  .contact:hover a, .contcat.hover a {
     border-radius: 50%;
     margin: 0 10px;
     color: white;
     font-size: 28px;
   }
-  .contact:hover a:hover, .share.hover a:hover {
+  .contact:hover a:hover, .contact.hover a:hover {
     color: #fff;
   }
   
