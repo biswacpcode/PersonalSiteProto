@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-h2, h3, p{
-    font-family: 'Tw Cen MT', sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 120%;
+}
+
+h2, h3{
+    font-family: 'Quicksand', sans-serif;
 }
   .navbar{
     background-color: #D7FBE8;
@@ -120,8 +127,9 @@ body{
     font-size: 20px;
 }
 .positions h1{
-    font-family: 'Tw Cen MT', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
+    font-size: 50px;
 }
 .webnd img{
     height: 150px;
@@ -130,6 +138,7 @@ body{
     margin: 5%;
     margin-top: 0;
     font-size: 20px;
+    text-align: justify;
 }
 .contact{
     background-color: white;
