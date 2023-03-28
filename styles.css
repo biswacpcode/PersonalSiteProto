@@ -13,6 +13,12 @@ h2, h3{
   .navbar{
     background-color: #D7FBE8;
 }
+hr {
+    border: dotted grey 8px;
+    width: 10%;
+    border-left: 0;
+    border-top: 0;
+}
 nav{
     display: flex;
     padding: 4px;
