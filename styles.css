@@ -52,6 +52,10 @@ nav img{
     background-color: #c1f3d8b4;
     border-radius: 50px;
 }
+.about{
+    border: #1FAB89 solid 2px;
+    border-radius: 50px;
+}
 .header h1{
     margin: 0;
     font-family: 'Caveat', sans-serif;
@@ -199,7 +203,7 @@ body{
     background-color: #61c5ec;
   }
   .contact a:nth-child(2):hover {
-    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
     transition: opacity 0.5s ease-in-out;
   }
   .contact a:nth-child(3):hover {
