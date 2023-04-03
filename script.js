@@ -8,3 +8,8 @@ setTimeout(() => {
 setTimeout(() => {
   contact.classList.remove("hover");
 }, 3000);
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function(){
+  loader.style.display="none";
+})

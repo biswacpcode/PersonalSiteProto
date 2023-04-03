@@ -2,7 +2,42 @@
   @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
-p{
+  #preloader{
+    align-items: center;
+    background-color: #D7FBE8;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+  }
+  .spinner {
+    --size-of-spinner: 50px;
+    --spinner-border-width: 4px;
+    --spinner-color: #08c18a;
+    --circle-color: #8bc34a24;
+    --speed-of-animation: 2s;
+    --scale: 1.3;
+    width: var(--size-of-spinner);
+    height: var(--size-of-spinner);
+    background: var(--circle-color);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9999;
+   }
+   .spinner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    border: var(--spinner-border-width) solid var(--spinner-color);
+    border-left-color: transparent;
+    border-right-color: transparent;
+    animation: spinny var(--speed-of-animation) linear infinite;
+   }
+   
+  p{
     font-family: 'Josefin Sans', sans-serif;
     line-height: 120%;
 }
@@ -53,7 +88,7 @@ nav img{
     border-radius: 50px;
 }
 .about{
-    border: #1FAB89 solid 2px;
+    border: #1FAB89 solid 1px;
     border-radius: 50px;
 }
 .header h1{
@@ -273,3 +308,16 @@ body{
     }
 }
 
+@keyframes spinny {
+    0% {
+     transform: rotate(0deg) scale(1)
+    }
+   
+    50% {
+     transform: rotate(45deg) scale(var(--scale))
+    }
+   
+    100% {
+     transform: rotate(360deg) scale(1)
+    }
+   }
